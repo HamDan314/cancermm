@@ -41,8 +41,8 @@ Actividad6_Despliegue_Docker/
 ## Ejecución local con Docker
 
 ```bash
-git clone https://github.com/USUARIO/Actividad6-Despliegue-Docker.git
-cd Actividad6-Despliegue-Docker
+git clone https://github.com/HamDan314/cancermm.git
+cd cancermm
 docker compose build --no-cache
 docker compose up -d
 docker compose ps
