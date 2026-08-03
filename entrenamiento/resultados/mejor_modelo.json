@@ -1,0 +1,18 @@
+{
+  "modelo": "regresion_logistica",
+  "modelo__C": 0.1,
+  "modelo__class_weight": NaN,
+  "modelo__solver": "liblinear",
+  "accuracy_test": 0.9824561403508771,
+  "precision_test": 0.9861111111111112,
+  "recall_test": 0.9861111111111112,
+  "f1_test": 0.9861111111111112,
+  "roc_auc_test": 0.996031746031746,
+  "mejor_f1_cv": 0.9860559194087166,
+  "f1_cv_desv": 0.004286746996914233,
+  "tiempo_entrenamiento_seg": 0.3270279030000012,
+  "class_weight": NaN,
+  "max_depth": NaN,
+  "min_samples_split": NaN,
+  "n_estimators": NaN
+}
