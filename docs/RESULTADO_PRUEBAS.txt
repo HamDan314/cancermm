@@ -1,0 +1,15 @@
+$ python -m pytest -q
+.......                                                                  [100%]
+7 passed in 1.24s
+
+Fecha de validación: 2026-08-01
+Entorno: Python 3.12, FastAPI 0.115.12, scikit-learn 1.8.0, pytest 8.3.5
+
+Casos aprobados:
+- Salud y carga del modelo.
+- Endpoint raíz e información del modelo.
+- Predicción válida con 30 variables.
+- Rechazo de menos de 30 variables.
+- Rechazo de valores no numéricos.
+- Rechazo de más de 30 variables.
+- Rechazo de cuerpo ausente y campos inesperados.

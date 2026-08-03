@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Clasificador de tumores</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+  <section class="card">
+    <h1>Clasificador de tumores</h1>
+    <p>Prototipo académico conectado a una API FastAPI contenerizada.</p>
+    <label for="features">30 características separadas por comas</label>
+    <textarea id="features" rows="9"></textarea>
+    <div class="actions">
+      <button id="sample">Cargar ejemplo</button>
+      <button id="predict">Realizar predicción</button>
+    </div>
+    <pre id="result">Esperando datos...</pre>
+    <small>Este sistema es demostrativo y no sustituye un diagnóstico médico.</small>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
