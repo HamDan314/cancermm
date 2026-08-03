@@ -8,6 +8,7 @@
 - Se ampliaron las pruebas de contrato, probabilidades y campos inesperados.
 - Se agregó evidencia reproducible de construcción, ejecución e integración.
 - El workflow ahora construye las imágenes de backend y frontend.
+- Se incorporó el notebook final de Google Colab con sus datos, scripts y resultados.
 
 ## 1.0.0 - 2026-07-12
 

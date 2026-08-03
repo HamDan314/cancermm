@@ -25,6 +25,12 @@ Actividad6_Despliegue_Docker/
 │   ├── styles.css
 │   ├── nginx.conf
 │   └── Dockerfile
+├── notebooks/
+│   └── entrena_cancer_colab.ipynb
+├── entrenamiento/
+│   ├── datos/
+│   ├── fuentes/
+│   └── resultados/
 ├── docs/
 ├── docker-compose.yml
 └── README.md
@@ -37,6 +43,14 @@ Actividad6_Despliegue_Docker/
 - Docker Compose v2.
 - 2 GB de RAM disponibles.
 - Puertos 8000 y 8080 libres.
+
+## Notebook de Google Colab
+
+El entrenamiento reproducible está en `notebooks/entrena_cancer_colab.ipynb`. El notebook clona `https://github.com/HamDan314/cancermm.git`, entra a `cancermm/entrenamiento` y ejecuta la limpieza, GridSearchCV, validación cruzada estratificada, comparación de regresión logística y random forest, métricas y registro con MLflow.
+
+[Abrir notebook en Google Colab](https://colab.research.google.com/github/HamDan314/cancermm/blob/main/notebooks/entrena_cancer_colab.ipynb)
+
+También se incluyen en `entrenamiento/` los datasets, `datos_prep.py`, `train.py`, resultados CSV, matrices de confusión y modelos generados.
 
 ## Ejecución local con Docker
 
